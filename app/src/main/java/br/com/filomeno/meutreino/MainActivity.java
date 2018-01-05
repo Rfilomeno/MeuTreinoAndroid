@@ -21,14 +21,16 @@ public class MainActivity extends AppCompatActivity {
 
     public void TreinoA(View v){
 
+        Exercicio titulo = new Exercicio("Exercicio", "Maquina", "Series", "Repetições", "Carga", "Assento", R.drawable.esteira);
         Exercicio e1 = new Exercicio("Corrida", "Esteira", "15 min", "-", "6 / 9", "-", R.drawable.esteira);
         Exercicio e2 = new Exercicio("Supino", "20", "3", "10", "30Kg", "6",R.drawable.supinomaquina);
-        Exercicio e3 = new Exercicio("Fly/Peck Deck", "25", "3", "10", "20Kg", "6",R.drawable.flypeckdeck);
-        Exercicio e4 = new Exercicio("Mesa Flexora", "10", "3", "10", "25Kg", "1/3",R.drawable.mesaflexora);
+        Exercicio e3 = new Exercicio("Fly/Peck", "25", "3", "10", "20Kg", "6",R.drawable.flypeckdeck);
+        Exercicio e4 = new Exercicio("M. Flexora", "10", "3", "10", "25Kg", "1/3",R.drawable.mesaflexora);
         Exercicio e5 = new Exercicio("Tríceps Polia", "62", "3", "10", "10Kg", "-",R.drawable.tricepspolia);
-        Exercicio e6 = new Exercicio("Cadeira Abdutora", "4", "3", "10", "40Kg", "2",R.drawable.cadeiraabdutora);
-        Exercicio e7 = new Exercicio("Desenvolvimento Maq.", "50", "3", "10", "10Kg", "7",R.drawable.desenvolvimentomaquina);
+        Exercicio e6 = new Exercicio("Cad. Abdutora", "4", "3", "10", "40Kg", "2",R.drawable.cadeiraabdutora);
+        Exercicio e7 = new Exercicio("Desenv. Maq.", "50", "3", "10", "10Kg", "7",R.drawable.desenvolvimentomaquina);
         Exercicio e8 = new Exercicio("Abd. Ponte (DV)", "-", "3", "-", "15 seg", "-",R.drawable.abdponte);
+        ListaExercicios.add(titulo);
         ListaExercicios.add(e1);
         ListaExercicios.add(e2);
         ListaExercicios.add(e3);
@@ -46,15 +48,17 @@ public class MainActivity extends AppCompatActivity {
 
     public void TreinoB(View v){
 
+        Exercicio titulo = new Exercicio("Exercicio", "Maquina", "Series", "Repetições", "Carga", "Assento", R.drawable.esteira);
         Exercicio e1 = new Exercicio("Corrida", "Esteira", "15 min", "-", "6 / 9", "-", R.drawable.esteira);
         Exercicio e2 = new Exercicio("Puxada Maq.", "32", "3", "10", "30Kg", "6", R.drawable.puxadamaquina);
         Exercicio e3 = new Exercicio("Remada Maq.", "30", "3", "10", "25Kg", "6/7", R.drawable.remadamaquina);
-        Exercicio e4 = new Exercicio("Cadeira Extensora", "2", "3", "10", "30Kg", "4/2/4", R.drawable.cadeiraextensora);
+        Exercicio e4 = new Exercicio("Cad. Extensora", "2", "3", "10", "30Kg", "4/2/4", R.drawable.cadeiraextensora);
         Exercicio e5 = new Exercicio("Rosca Direta", "62", "3", "10", "10Kg", "-", R.drawable.roscadireta);
-        Exercicio e6 = new Exercicio("Cadeira Adutora", "5", "3", "10", "40Kg", "5", R.drawable.cadeiraadutora);
+        Exercicio e6 = new Exercicio("Cad. Adutora", "5", "3", "10", "40Kg", "5", R.drawable.cadeiraadutora);
         Exercicio e7 = new Exercicio("Remada Alta", "62", "3", "10", "10Kg", "-",R.drawable.remadaalta);
-        Exercicio e8 = new Exercicio("Gêmeos Sentado", "7", "3", "10", "30Kg", "6", R.drawable.gemeossentado);
+        Exercicio e8 = new Exercicio("Gêmeos Sent.", "7", "3", "10", "30Kg", "6", R.drawable.gemeossentado);
         Exercicio e9 = new Exercicio("Abd. Supra", "-", "3", "15", "-", "-", R.drawable.abdsupra);
+        ListaExercicios.add(titulo);
         ListaExercicios.add(e1);
         ListaExercicios.add(e2);
         ListaExercicios.add(e3);
